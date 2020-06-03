@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SortingPage</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <button id="back" onclick="goBackToMain()" >Back</button>
+    <div id="page">
+        <h1 id="header"><em>Choose Your Sorting Method</em></h1> 
+     </div>
+     <div id="header">
+        <button id="insertionSortBtn" class="sortBtn" onclick="insertionSortFun()"><em>insertionSort</em>
+        <button id="selectionSortBtn" class="sortBtn" onclick="selectionSortFun()"><em>selectionSort</em>
+        <button id="bubleSortBtn" class="sortBtn" onclick="bubleSortFun()"><em>bubleSort</em>
+        <button id="mergSortBtn" class="sortBtn" onclick="mergSortFun()"><em>mergSort</em>
+        <button id="quickSortBtn" class="sortBtn" onclick="quickSortFun()"><em>quickSort</em>
+        </div>
+    </body>
+    <script>  function goBackToMain() 
+        {
+          window.open("../html/mainPage.html")    
+        }
+    </script>
+</html>
