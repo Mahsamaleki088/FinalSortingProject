@@ -1,7 +1,7 @@
 #header{
 background-color: rgba(24, 43, 61, 0.877); 
 color: white;
-margin-left: 15%;
+margin: center center;
 width: auto;
 }
 #headerbtn{
@@ -115,8 +115,9 @@ h1{
     line-height: 55px;
     margin: 0 auo;
     padding: 30px 10px 20px 10px;
-    color: black;
+    color: white ;
     text-shadow: 1px 1px 1px black;
+    margin-left: 200px;
     /* margin-left: 120px;  */
 
 }
@@ -151,20 +152,21 @@ h2 span {
     margin-left: 5px;
     padding: 4px 0px 0px 4px;}
 ul {
-    background-color: #9bc8f3;
+    background-color: #9cabb9;
     border:none;
     padding: 4px;
     margin: 100px;}
 li {
-    background-color: #c0dcf3;
-    color: #c0dcf3;
-    border-top: 5px solid #c0dcf3  ;
-    border-bottom: 5px solid  rgba(91, 140, 185, 0.877);
-    font-size: 30px;
+    background-color : #12513c;
+    color:white;
+    border-top: 5px solid #12513c;  ;
+    font-size: 15px;
     letter-spacing: .05em;
     list-style-type: none;
-    text-shadow: 1px 1px 1px #c0dcf3;
+    text-shadow: 1px 1px 1px #037e53;
     height: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
     /* padding-left: 1em;
     padding-top: 10px;
     border-top-right-radius: 10px;
@@ -191,7 +193,7 @@ li {
     border-left: 2px;
     border-right: 2px;
     margin-left: 20px;
-    font-size: 24px;
+    font-size: 18px;
     
     }
 
@@ -204,14 +206,17 @@ li a {
     padding-right: 36px;}
 p {
     color: rgb(43, 41, 40); 
-    background-color: rgb(194, 219, 240);
+    background-color: #12513c;
     border-radius: 5px;
     text-align: left;
+    color: white;
     padding: 30px;
-    margin: 40px auto 5px auto;
-    min-width: 50%; 
-    max-width: 80%;
-    font-size: 24px;
+    margin: 5px auto 5px auto;
+    min-width: 20%; 
+    max-width: 90%;
+    font-size: 20px;
+    
+    border-radius: 15px;
 }
 #scriptResults {
     padding-bottom: 10px;}
