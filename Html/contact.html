@@ -4,19 +4,130 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css" integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/style.css">
+    <style>
+        body{
+            background-color: #fff;
+        }
+        a {
+            color: rgba(24, 43, 61, 0.877);
+        }
+        a:hover {
+            color: #3482cc;
+        }
+        header {
+            position: fixed;
+            z-index: 1000;
+            top: 0;
+            left: 0;
+            right: 0;
+            background: rgba(24, 43, 61, 0.877);
+            display: block;
+            padding: 20px 20px;
+            color: #fff;
+        }
+        header .title {
+            font-weight: 700;
+            color: #fff;
+            font-size: 22px;
+        }
+        header .title span {
+            font-weight: 500;
+            font-style: italic;
+            margin-left: 10px;
+            font-size: 18px;
+            opacity: 0.75;
+        }
+        header a i {
+            color: #fff;
+            background: transparent !important;
+            font-size: 24px;
+            margin-top: 4px;
+        }
+        header a i:hover {
+            color: #56a4ec;
+        }
+        h3 {
+            font-weight: 700;
+            color: rgba(24, 43, 61, 0.877);
+        }
+        h6 {
+            border:1px solid rgba(24, 43, 61, 0.877);
+            padding: 6px 0;
+            border-radius: 5px;
+        }
+        i.fab, i.far {
+            color: rgba(24, 43, 61, 0.877);
+        }
+        .img-thumbnail {
+            width: 100%;
+            max-width: 250px;
+            margin-top: 50px;
+        }
+        .container, .row{
+            height: 100vh;
+        }
+        .profile {
+            margin: 0 auto;
+            margin-top: 100px;
+            width: 90%;
+            max-width: 300px;
+            padding: 50px 0;
+        }
+        .bg-silver{
+            background-color: whitesmoke;
+        }
+        @media only screen and (max-width: 500px) {
+            .profile {
+
+                margin-top: auto;
+            }
+        }
+    </style>
 </head>
 <body>
-    <button id="back" onclick="goBackToMain()" >Back</button>
-    <div id="page">
-        <h1 id="header"><em>Contact</em></h1> </div>
-        <p>Introduce your group members based on their experience (include their email addresses and profile
-            photos as well).</p>
+    <header>
+        <a href="mainPage.html" onclick="goBackToMain()" class="float-right" title="Back" >
+            <i class="fas fa-arrow-left"></i>
+        </a>
+        <div class="title">CONTACT<span>Meet our team</span></div>
+    </header>
     
+    <div class="container">
+        <div class="row justify-content-between">
+            <div class="col-12 col-sm-4 text-center">
+                <div class="profile">
+                    <img src="../Images/mahsa.jpg" class="rounded-circle img-thumbnail img-fluid" alt="Mahsa Maleki">
+                    <h3>Mahsa Maleki</h3>
+                    <h6>Project Leader</h6>
+                    <span class="text-left" >
+                        <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/mahsamaleki088/">Linkedin</a><br>
+                        <i class="far fa-envelope"></i> <a href="mailto:email@email.com">email@email.com</a>
+                    </span>
+                </div>
+            </div>
+            <div class="col-12 col-sm-4 text-center bg-silver">
+                <div class="profile" >
+                    <img src="../Images/naoki.jpg" class="rounded-circle img-thumbnail img-fluid" alt="Naoki Takami">
+                    <h3>Naoki Takami</h3>
+                    <h6>Web Developer</h6>
+                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/naoki-takami/">Linkedin</a><br>
+                    <i class="far fa-envelope"></i> <a href="mailto:email@email.com">email@email.com</a>
+                </div>
+            </div>
+            <div class="col-12 col-md-3 text-center ">
+                <div class="profile">
+                    <img src="../Images/ariel.jpg" class="rounded-circle img-thumbnail img-fluid" alt="Ariel Cardoso">
+                    <h3>Ariel Cardoso</h3>
+                    <h6>web Developer</h6>
+                    <i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/arielcardoso/">Linkedin</a><br>
+                    <i class="far fa-envelope"></i> <a href="mailto:arielvix@gmail.com">email@email.com</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
 </body>
-<script>  function goBackToMain() 
-    {
-      window.open("../html/mainPage.html")    
-    }
-</script>
 </html>
