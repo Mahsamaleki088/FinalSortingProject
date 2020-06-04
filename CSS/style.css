@@ -14,8 +14,8 @@ body{
 }
 .sortBtn{
     background-color: rgba(91, 140, 185, 0.877);
-    border-color: rgba(46, 91, 133, 0.877);
-    margin: 0px auto;
+    border-color: rgba(91, 140, 185, 0.877);
+    margin: 10px auto;
     margin-left: 150px ;
     
 }
@@ -36,7 +36,18 @@ h2 {
     font-weight: normal;
     text-align: center;
     letter-spacing: .2em;
-    margin: 10px 0px 23px 0px;}
+    height: 0px;
+    line-height: 5px;
+    padding: 10px 10px 20px 10px;
+  
+}
+
+    h3 {
+        color: rgb(241, 192, 31);
+        font-size: 24px;
+        font-weight: normal;
+        text-align: center;
+        margin: 10px 0px 23px 0px;}
 h2 span {
     border-radius: 50%;
     background-color: #000;

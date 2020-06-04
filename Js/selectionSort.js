@@ -19,7 +19,7 @@
             arrList[i] = temp; 
         }            
                
-            document.getElementById('answer2').innerHTML="Result by selection sort: "+ arraylist;
+            document.getElementById('answer2').innerHTML="Result by selection sort is: "+ arraylist;
         }
       })();
   

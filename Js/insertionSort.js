@@ -7,6 +7,7 @@
         })
       
         function insertionsortfunction(arrList) {
+            const unsortedArray=arrList
             let n=arrList.length;
             for (i=1; i<=n-1; i++ ){
                 let j=i;
@@ -18,8 +19,7 @@
                     j--;
                 }
             }
-               
-            document.getElementById('answer1').innerHTML="Result by insertion sort: "+ arraylist;
+            document.getElementById('answer1').innerHTML="Result by insertion sort is: "+ arraylist;
         }
       })();
   
