@@ -1,13 +1,23 @@
-#header{
-background-color: rgba(24, 43, 61, 0.877); 
-color: white;
-margin: center center;
-width: auto;
+/* == Header & Menu ============ */
+header{
+    background-color: rgba(24, 43, 61, 0.877); 
+    color: white;
+    text-align: center;
+    padding: 2px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
 }
-#headerbtn{
-    background-color:  rgba(24, 43, 61, 0.877); 
+header a.w3-button.actived {
+    background-color:  rgba(11, 102, 67, 0.877); 
 }
- 
+header a.w3-button:hover {
+    background-color:rgba(255, 255, 255, 0.2) !important;
+    color: #fff !important;
+    text-decoration: none !important;
+}
+
 .body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
 img {vertical-align: middle;} */
