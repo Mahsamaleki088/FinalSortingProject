@@ -8,6 +8,7 @@ header{
     top: 0;
     left: 0;
     right: 0;
+    z-index: 1000;
 }
 header a.w3-button.actived {
     background-color:  rgba(11, 102, 67, 0.877); 
@@ -17,6 +18,62 @@ header a.w3-button:hover {
     color: #fff !important;
     text-decoration: none !important;
 }
+
+/* == Contact Page ============ */
+body.contact {
+    background-color: #fff;
+}
+.team-title {
+    margin-top: 70px;
+    font-size: 44px;
+    font-weight: 700;
+    color: #24a071;
+}
+.team-title h5 {
+    color: #222;
+}
+.profile a {
+    color: rgba(24, 43, 61, 0.877);
+}
+.profile a:hover {
+    color: #3482cc;
+}
+.profile h3 {
+    font-weight: 700;
+    color: rgba(24, 43, 61, 0.877);
+}
+.profile h6 {
+    border:1px solid rgba(24, 43, 61, 0.877);
+    padding: 6px 0;
+    border-radius: 5px;
+}
+.profile i.fab, i.far {
+    color: rgba(24, 43, 61, 0.877);
+}
+.profile .img-thumbnail {
+    width: 100%;
+    max-width: 250px;
+    margin-top: 50px;
+}
+.container, .row{
+    height: 100vh;
+}
+.profile {
+    margin: 0 auto;
+    margin-top: 100px;
+    width: 90%;
+    max-width: 300px;
+    padding: 50px 0;
+}
+.bg-silver{
+    background-color: whitesmoke;
+}
+@media only screen and (max-width: 500px) {
+    .profile {
+        margin-top: auto;
+    }
+}
+
 
 .body {font-family: Verdana, sans-serif; margin:0}
 .mySlides {display: none}
